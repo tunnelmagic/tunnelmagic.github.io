@@ -1,0 +1,23 @@
+{
+  "name": "tunnelmagic.github.io",
+  "version": "1.0.0",
+  "description": "<a href=\"https://www.flaticon.com/free-icons/magic\" title=\"magic icons\">Magic icons created by muhammad atho' - Flaticon</a>",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn run generate-md --layout jasonm23-dark",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunnelmagic/tunnelmagic.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tunnelmagic/tunnelmagic.github.io/issues"
+  },
+  "homepage": "https://github.com/tunnelmagic/tunnelmagic.github.io#readme",
+  "devDependencies": {
+    "markdown-styles": "^3.2.0"
+  }
+}
