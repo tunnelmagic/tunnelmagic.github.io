@@ -1,1 +1,3 @@
-# tunnelmagic.github.io
+![Logo](logo.png)
+
+# Tunnel Magic
