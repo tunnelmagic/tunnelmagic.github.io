@@ -1,0 +1,26 @@
+name: Deploy
+on:
+  push:
+    branches:
+    - develop    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
+    - run: yarn install
+    - run: yarn build
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: main
+        PUBLISH_DIR: ./output
+      with:
+        username: "Rob van der Leek"
+        useremail: "robvanderleek@gmail.com"
