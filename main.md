@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tunnel Magic
+nav_order: 0
+---
+
 # Tunnel Magic
 
 ![Logo](logo-256x256.png)
