@@ -6,7 +6,7 @@ nav_order: 0
 
 # Tunnel Magic
 
-![Logo](logo-256x256.png)
+![Logo](assets/logo-256x256.png)
 
 ## *Serve the Internet from localhost*
 
