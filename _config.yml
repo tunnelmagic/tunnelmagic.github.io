@@ -1,4 +1,4 @@
-remote_theme: SgtSilvio/just-the-docs@3e0de1c7 # just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
 
 just_the_docs:
@@ -7,3 +7,6 @@ just_the_docs:
       enabled: true
     edit_link:
       enabled: true
+
+gh_edit_link: true
+gh_edit_view_mode: "edit"
