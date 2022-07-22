@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 # Tunnel Magic
 
 ![Logo](assets/logo-256x256.png)
