@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
-logo: "_docs/assets/logo-256x256.png"
+logo: "assets/logo-256x256.png"
 
 collections:
   docs:
