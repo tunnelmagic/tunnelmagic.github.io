@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tunnel Magic
+title: Quick Start
 nav_order: 0
 ---
 

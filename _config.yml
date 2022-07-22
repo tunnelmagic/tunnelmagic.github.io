@@ -2,15 +2,7 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
 logo: "assets/logo-256x256.png"
 
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-
 just_the_docs:
-  collections:
-    docs:
-      name: Documentation
   github:
     repo_link:
       enabled: true
