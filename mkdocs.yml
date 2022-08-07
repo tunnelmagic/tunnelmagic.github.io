@@ -1,0 +1,23 @@
+site_name: Tunnel Magic
+theme:
+  name: material
+  palette:
+  - scheme: slate
+    primary: light blue
+    toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
+  - scheme: default
+    primary: light blue
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to dark mode
+  logo: assets/logo-256x256.png
+  favicon: assets/logo.png
+  features:
+    - toc.integrate 
+plugins:
+  - search
+nav:
+    - 'index.md'
+    - 'quick-start.md'
