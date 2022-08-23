@@ -21,3 +21,4 @@ plugins:
 nav:
     - 'index.md'
     - 'quick-start.md'
+    - 'alternatives.md'
